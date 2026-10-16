@@ -1,25 +1,25 @@
 {
   "active": false,
-  "hostname": "rdpfree-4",
-  "os": "Microsoft Windows Server 2025 Datacenter",
-  "os_build": "10.0.26100",
+  "hostname": "rdpfree-5",
+  "os": "Microsoft Windows Server 2022 Datacenter",
+  "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
     "cpu_threads": 4,
     "ram_gb": 16.0,
-    "disk_free_gb": 31.3
+    "disk_free_gb": 82.9
   },
   "rdp_port": 3389,
   "rdp_user": "binnhost",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-16T14:41:23Z",
-  "expires_at": "2026-10-16T20:36:23Z",
+  "started_at": "2026-10-16T14:43:33Z",
+  "expires_at": "2026-10-16T20:38:33Z",
   "duration_menit": 355,
-  "run_id": "38917751163",
+  "run_id": "38918044312",
   "run_attempt": "1",
-  "run_number": "4",
-  "run_url": "https://github.com/iqbalzen283-ss/rdplppp/actions/runs/38917751163",
+  "run_number": "5",
+  "run_url": "https://github.com/iqbalzen283-ss/rdplppp/actions/runs/38918044312",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -49,5 +49,5 @@
     },
     "mode": "tailscale"
   },
-  "stopped_at": "2026-10-16T14:41:36Z"
+  "stopped_at": "2026-10-16T14:43:44Z"
 }
