@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "rdpfree-5",
+  "active": true,
+  "hostname": "rdpfree-6",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "cpu_threads": 4,
     "ram_gb": 16.0,
-    "disk_free_gb": 82.9
+    "disk_free_gb": 82.9,
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "binnhost",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-16T14:43:33Z",
-  "expires_at": "2026-10-16T20:38:33Z",
+  "started_at": "2026-10-16T14:47:02Z",
+  "expires_at": "2026-10-16T20:42:02Z",
   "duration_menit": 355,
-  "run_id": "38918044312",
+  "run_id": "38918519429",
   "run_attempt": "1",
-  "run_number": "5",
-  "run_url": "https://github.com/iqbalzen283-ss/rdplppp/actions/runs/38918044312",
+  "run_number": "6",
+  "run_url": "https://github.com/iqbalzen283-ss/rdplppp/actions/runs/38918519429",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,15 +39,19 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
+    "mode": "tailscale",
     "tailscale": {
-      "status": "failed",
-      "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
-    },
-    "mode": "tailscale"
+      "ip": "100.88.94.81",
+      "status": "ok",
+      "magicdns": "rdpfree-6.tail540a1e.ts.net.",
+      "hostname": "rdpfree-6",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+    }
   },
-  "stopped_at": "2026-10-16T14:43:44Z"
+  "media": {
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "audio_output": "rdp_playback_enabled",
+    "wallpaper": "xyverse_configured_for_user_logon",
+    "microphone": "rdp_capture_enabled"
+  }
 }
