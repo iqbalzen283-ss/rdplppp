@@ -1,25 +1,25 @@
 {
   "active": false,
-  "hostname": "rdpfree-6",
+  "hostname": "rdpfree-7",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
     "disk_free_gb": 82.9,
-    "cpu_threads": 4
+    "cpu_threads": 4,
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "binnhost",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-16T14:47:02Z",
-  "expires_at": "2026-10-16T20:42:02Z",
+  "started_at": "2026-10-16T21:03:48Z",
+  "expires_at": "2026-10-17T02:58:48Z",
   "duration_menit": 355,
-  "run_id": "38918519429",
+  "run_id": "38966682447",
   "run_attempt": "1",
-  "run_number": "6",
-  "run_url": "https://github.com/iqbalzen283-ss/rdplppp/actions/runs/38918519429",
+  "run_number": "7",
+  "run_url": "https://github.com/iqbalzen283-ss/rdplppp/actions/runs/38966682447",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -41,82 +41,13 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "ok",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "status": "failed",
+      "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
     }
   },
-  "media": {
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "audio_output": "rdp_playback_enabled",
-    "wallpaper": "xyverse_configured_for_user_logon",
-    "microphone": "rdp_capture_enabled"
-  },
-  "storage": {
-    "boost": "ok",
-    "before_gb": 82.76,
-    "after_gb": 102.44,
-    "gained_gb": 19.68,
-    "removed_targets": 19,
-    "drives": [
-      {
-        "used_gb": 153.01,
-        "free_gb": 102.44,
-        "size_gb": 255.45,
-        "letter": "C"
-      },
-      {
-        "used_gb": 2.99,
-        "free_gb": 147.01,
-        "size_gb": 150.0,
-        "letter": "D"
-      }
-    ],
-    "game_dir": "D:\\Games (disarankan untuk GTA)",
-    "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa."
-  },
-  "samp": {
-    "status": "dependencies_ready",
-    "directx": "verified_x86_x64",
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "samp_installed": false,
-    "play_tested": false,
-    "gta_installed": false,
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "directplay": "Enabled",
-    "netfx3": "Enabled"
-  },
-  "game_environment": {
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "runner": "windows-2022",
-    "play_tested": false,
-    "hypervisor_present": true,
-    "windows_server": true
-  },
-  "games": {
-    "samp": {
-      "samp_installed": false,
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-      "gta_installed": false,
-      "game_dir": null,
-      "status": "dependencies_ready"
-    },
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "roblox": {
-      "status": "unsupported_environment",
-      "note": "Roblox mensyaratkan Windows 10/11 desktop 64-bit dan dukungan GPU. Windows Server runner bukan target yang didukung; memasang DX9 tidak mengubah ini."
-    },
-    "minecraft_java": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    }
-  },
-  "heartbeat_at": "2026-10-16T20:39:23.2346225Z",
-  "stopped_at": "2026-10-16T20:40:04Z"
+  "stopped_at": "2026-10-16T21:04:00Z"
 }
