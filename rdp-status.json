@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "rdpfree-7",
+  "active": true,
+  "hostname": "rdpfree-8",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "disk_free_gb": 82.9,
-    "cpu_threads": 4,
-    "ram_gb": 16.0
+    "ram_gb": 16.0,
+    "disk_free_gb": 79.8,
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "binnhost",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-16T21:03:48Z",
-  "expires_at": "2026-10-17T02:58:48Z",
+  "started_at": "2026-10-16T21:06:00Z",
+  "expires_at": "2026-10-17T03:01:00Z",
   "duration_menit": 355,
-  "run_id": "38966682447",
+  "run_id": "38966949757",
   "run_attempt": "1",
-  "run_number": "7",
-  "run_url": "https://github.com/iqbalzen283-ss/rdplppp/actions/runs/38966682447",
+  "run_number": "8",
+  "run_url": "https://github.com/iqbalzen283-ss/rdplppp/actions/runs/38966949757",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,15 +39,19 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
-      "status": "failed",
-      "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
-    }
+      "magicdns": "rdpfree-8.tail540a1e.ts.net.",
+      "hostname": "rdpfree-8",
+      "ip": "100.67.224.96",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "status": "ok"
+    },
+    "mode": "tailscale"
   },
-  "stopped_at": "2026-10-16T21:04:00Z"
+  "media": {
+    "audio_output": "rdp_playback_enabled",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "microphone": "rdp_capture_enabled",
+    "wallpaper": "xyverse_configured_for_user_logon"
+  }
 }
