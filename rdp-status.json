@@ -53,5 +53,67 @@
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "microphone": "rdp_capture_enabled",
     "wallpaper": "xyverse_configured_for_user_logon"
+  },
+  "storage": {
+    "boost": "ok",
+    "before_gb": 79.65,
+    "after_gb": 99.71,
+    "gained_gb": 20.06,
+    "removed_targets": 18,
+    "drives": [
+      {
+        "free_gb": 99.71,
+        "used_gb": 155.74,
+        "size_gb": 255.45,
+        "letter": "C"
+      },
+      {
+        "free_gb": 219.87,
+        "used_gb": 0.12,
+        "size_gb": 219.98,
+        "letter": "D"
+      }
+    ],
+    "game_dir": "D:\\Games (disarankan untuk GTA)",
+    "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa."
+  },
+  "samp": {
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "directx": "verified_x86_x64",
+    "play_tested": false,
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "gta_installed": false,
+    "directplay": "Enabled",
+    "status": "dependencies_ready",
+    "samp_installed": false,
+    "netfx3": "Enabled"
+  },
+  "games": {
+    "minecraft_bedrock": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "roblox": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "samp": {
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "gta_installed": false,
+      "samp_installed": false,
+      "game_dir": null,
+      "status": "dependencies_ready"
+    },
+    "minecraft_java": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    }
+  },
+  "game_environment": {
+    "os": "Microsoft Windows Server 2022 Datacenter",
+    "play_tested": false,
+    "runner": "windows-2022",
+    "hypervisor_present": true,
+    "windows_server": true
   }
 }
