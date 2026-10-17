@@ -53,5 +53,67 @@
     "microphone": "rdp_capture_enabled",
     "wallpaper": "xyverse_configured_for_user_logon",
     "audio_output": "rdp_playback_enabled"
+  },
+  "storage": {
+    "boost": "ok",
+    "before_gb": 82.76,
+    "after_gb": 105.55,
+    "gained_gb": 22.79,
+    "removed_targets": 19,
+    "drives": [
+      {
+        "free_gb": 105.55,
+        "letter": "C",
+        "size_gb": 255.45,
+        "used_gb": 149.9
+      },
+      {
+        "free_gb": 147.01,
+        "letter": "D",
+        "size_gb": 150.0,
+        "used_gb": 2.99
+      }
+    ],
+    "game_dir": "D:\\Games (disarankan untuk GTA)",
+    "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa."
+  },
+  "samp": {
+    "play_tested": false,
+    "directx": "verified_x86_x64",
+    "netfx3": "Enabled",
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "directplay": "Enabled",
+    "gta_installed": false,
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "status": "dependencies_ready",
+    "samp_installed": false
+  },
+  "game_environment": {
+    "windows_server": true,
+    "runner": "windows-2022",
+    "os": "Microsoft Windows Server 2022 Datacenter",
+    "play_tested": false,
+    "hypervisor_present": true
+  },
+  "games": {
+    "roblox": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "samp": {
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "status": "dependencies_ready",
+      "gta_installed": false,
+      "game_dir": null,
+      "samp_installed": false
+    },
+    "minecraft_bedrock": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "minecraft_java": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    }
   }
 }
