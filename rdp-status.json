@@ -53,5 +53,67 @@
     "wallpaper": "xyverse_configured_for_user_logon",
     "audio_output": "rdp_playback_enabled",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end."
+  },
+  "storage": {
+    "boost": "ok",
+    "before_gb": 82.55,
+    "after_gb": 102.77,
+    "gained_gb": 20.22,
+    "removed_targets": 18,
+    "drives": [
+      {
+        "letter": "C",
+        "used_gb": 152.68,
+        "free_gb": 102.77,
+        "size_gb": 255.45
+      },
+      {
+        "letter": "D",
+        "used_gb": 2.99,
+        "free_gb": 147.01,
+        "size_gb": 150.0
+      }
+    ],
+    "game_dir": "D:\\Games (disarankan untuk GTA)",
+    "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa."
+  },
+  "samp": {
+    "status": "dependencies_ready",
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "gta_installed": false,
+    "play_tested": false,
+    "netfx3": "Enabled",
+    "directx": "verified_x86_x64",
+    "samp_installed": false,
+    "directplay": "Enabled"
+  },
+  "games": {
+    "samp": {
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "gta_installed": false,
+      "status": "dependencies_ready",
+      "game_dir": null,
+      "samp_installed": false
+    },
+    "minecraft_java": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "minecraft_bedrock": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "roblox": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    }
+  },
+  "game_environment": {
+    "os": "Microsoft Windows Server 2022 Datacenter",
+    "windows_server": true,
+    "hypervisor_present": true,
+    "runner": "windows-2022",
+    "play_tested": false
   }
 }
